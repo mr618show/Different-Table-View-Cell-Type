@@ -12,6 +12,22 @@
 		A517961B20BFC7AF004DA90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A517961920BFC7AF004DA90C /* Main.storyboard */; };
 		A517961D20BFC7B2004DA90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A517961C20BFC7B2004DA90C /* Assets.xcassets */; };
 		A517962020BFC7B2004DA90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A517961E20BFC7B2004DA90C /* LaunchScreen.storyboard */; };
+		A517962820BFC9C8004DA90C /* ServerData.json in Resources */ = {isa = PBXBuildFile; fileRef = A517962720BFC9C8004DA90C /* ServerData.json */; };
+		A517962A20BFCA4D004DA90C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517962920BFCA4D004DA90C /* Profile.swift */; };
+		A517962C20BFCBC1004DA90C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517962B20BFCBC1004DA90C /* Friend.swift */; };
+		A517962E20BFCBD8004DA90C /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517962D20BFCBD8004DA90C /* Attribute.swift */; };
+		A517963020BFCBEC004DA90C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517962F20BFCBEC004DA90C /* Helper.swift */; };
+		A517964120BFCFCE004DA90C /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517964020BFCFCE004DA90C /* ProfileViewModel.swift */; };
+		A517964420C05AC4004DA90C /* NamePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517964220C05AC4004DA90C /* NamePictureCell.swift */; };
+		A517964520C05AC4004DA90C /* NamePictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A517964320C05AC4004DA90C /* NamePictureCell.xib */; };
+		A517964820C05B78004DA90C /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517964620C05B78004DA90C /* AboutCell.swift */; };
+		A517964920C05B78004DA90C /* AboutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A517964720C05B78004DA90C /* AboutCell.xib */; };
+		A517964C20C05BB2004DA90C /* EmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517964A20C05BB2004DA90C /* EmailCell.swift */; };
+		A517964D20C05BB2004DA90C /* EmailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A517964B20C05BB2004DA90C /* EmailCell.xib */; };
+		A517965020C05BE6004DA90C /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517964E20C05BE6004DA90C /* AttributeCell.swift */; };
+		A517965120C05BE6004DA90C /* AttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A517964F20C05BE6004DA90C /* AttributeCell.xib */; };
+		A517965420C05C22004DA90C /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517965220C05C22004DA90C /* FriendCell.swift */; };
+		A517965520C05C22004DA90C /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A517965320C05C22004DA90C /* FriendCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,22 @@
 		A517961C20BFC7B2004DA90C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A517961F20BFC7B2004DA90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A517962120BFC7B2004DA90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A517962720BFC9C8004DA90C /* ServerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ServerData.json; sourceTree = "<group>"; };
+		A517962920BFCA4D004DA90C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A517962B20BFCBC1004DA90C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		A517962D20BFCBD8004DA90C /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		A517962F20BFCBEC004DA90C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A517964020BFCFCE004DA90C /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		A517964220C05AC4004DA90C /* NamePictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamePictureCell.swift; sourceTree = "<group>"; };
+		A517964320C05AC4004DA90C /* NamePictureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NamePictureCell.xib; sourceTree = "<group>"; };
+		A517964620C05B78004DA90C /* AboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		A517964720C05B78004DA90C /* AboutCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutCell.xib; sourceTree = "<group>"; };
+		A517964A20C05BB2004DA90C /* EmailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCell.swift; sourceTree = "<group>"; };
+		A517964B20C05BB2004DA90C /* EmailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailCell.xib; sourceTree = "<group>"; };
+		A517964E20C05BE6004DA90C /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
+		A517964F20C05BE6004DA90C /* AttributeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeCell.xib; sourceTree = "<group>"; };
+		A517965220C05C22004DA90C /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		A517965320C05C22004DA90C /* FriendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +86,46 @@
 		A517961420BFC7AE004DA90C /* TableViewWithMultipleCellTypeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A517963520BFCE84004DA90C /* View Model */,
+				A517963320BFCE61004DA90C /* Model */,
 				A517961520BFC7AE004DA90C /* AppDelegate.swift */,
 				A517961720BFC7AF004DA90C /* ViewController.swift */,
+				A517962F20BFCBEC004DA90C /* Helper.swift */,
 				A517961920BFC7AF004DA90C /* Main.storyboard */,
 				A517961C20BFC7B2004DA90C /* Assets.xcassets */,
 				A517961E20BFC7B2004DA90C /* LaunchScreen.storyboard */,
 				A517962120BFC7B2004DA90C /* Info.plist */,
+				A517962720BFC9C8004DA90C /* ServerData.json */,
+				A517964220C05AC4004DA90C /* NamePictureCell.swift */,
+				A517964320C05AC4004DA90C /* NamePictureCell.xib */,
+				A517964620C05B78004DA90C /* AboutCell.swift */,
+				A517964720C05B78004DA90C /* AboutCell.xib */,
+				A517964A20C05BB2004DA90C /* EmailCell.swift */,
+				A517964B20C05BB2004DA90C /* EmailCell.xib */,
+				A517964E20C05BE6004DA90C /* AttributeCell.swift */,
+				A517964F20C05BE6004DA90C /* AttributeCell.xib */,
+				A517965220C05C22004DA90C /* FriendCell.swift */,
+				A517965320C05C22004DA90C /* FriendCell.xib */,
 			);
 			path = TableViewWithMultipleCellTypeDemo;
+			sourceTree = "<group>";
+		};
+		A517963320BFCE61004DA90C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A517962920BFCA4D004DA90C /* Profile.swift */,
+				A517962B20BFCBC1004DA90C /* Friend.swift */,
+				A517962D20BFCBD8004DA90C /* Attribute.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A517963520BFCE84004DA90C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A517964020BFCFCE004DA90C /* ProfileViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +186,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A517962820BFC9C8004DA90C /* ServerData.json in Resources */,
+				A517964D20C05BB2004DA90C /* EmailCell.xib in Resources */,
 				A517962020BFC7B2004DA90C /* LaunchScreen.storyboard in Resources */,
 				A517961D20BFC7B2004DA90C /* Assets.xcassets in Resources */,
+				A517965520C05C22004DA90C /* FriendCell.xib in Resources */,
+				A517964920C05B78004DA90C /* AboutCell.xib in Resources */,
 				A517961B20BFC7AF004DA90C /* Main.storyboard in Resources */,
+				A517965120C05BE6004DA90C /* AttributeCell.xib in Resources */,
+				A517964520C05AC4004DA90C /* NamePictureCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A517965020C05BE6004DA90C /* AttributeCell.swift in Sources */,
+				A517964C20C05BB2004DA90C /* EmailCell.swift in Sources */,
+				A517964820C05B78004DA90C /* AboutCell.swift in Sources */,
+				A517964420C05AC4004DA90C /* NamePictureCell.swift in Sources */,
+				A517962E20BFCBD8004DA90C /* Attribute.swift in Sources */,
+				A517962A20BFCA4D004DA90C /* Profile.swift in Sources */,
 				A517961820BFC7AF004DA90C /* ViewController.swift in Sources */,
 				A517961620BFC7AE004DA90C /* AppDelegate.swift in Sources */,
+				A517962C20BFCBC1004DA90C /* Friend.swift in Sources */,
+				A517965420C05C22004DA90C /* FriendCell.swift in Sources */,
+				A517964120BFCFCE004DA90C /* ProfileViewModel.swift in Sources */,
+				A517963020BFCBEC004DA90C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
